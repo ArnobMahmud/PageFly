@@ -47,14 +47,23 @@ nav {
 .nav-item :hover {
   color: #5f67ff;
 }
-.sep_anchor a {
-  color: #5f67ff;
+
+.sep_anchor {
+  border: 50%;
   border: 1px solid #5f67ff;
-  padding: 5px 10px;
   border-radius: 50%;
+}
+.sep_anchor a {
+  padding: 5px 10px;
+  color: #5f67ff;
   font-size: 18px;
 }
-
+.sep_anchor :hover {
+  background-color: #5f67ff;
+  color: white;
+  border-radius: 50%;
+  border: none;
+}
 .btn a {
   text-transform: uppercase;
   background-color: #5f67ff;
