@@ -28,7 +28,9 @@ a {
   padding: 0px 15px;
   transition: all linear 0.5s;
 }
-
+.dropdown-divider {
+  padding: 0.5px;
+}
 .nav-item a {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
