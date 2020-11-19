@@ -67,14 +67,6 @@ a {
   padding: 20px 0px;
 }
 
-/* .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  width: 100%;
-  background-color: white;
-} */
 hr {
   background-color: rgba(54, 50, 50, 0.486);
   padding: 1px;
@@ -250,7 +242,7 @@ footer {
 footer h1 {
   text-transform: uppercase;
   color: white;
-  font-size: 30px;
+  font-size: 22px;
   padding-bottom: 20px;
 }
 
@@ -260,7 +252,7 @@ footer ul li {
 
 .footer_content ul li a {
   text-decoration: none;
-  line-height: 2;
+  line-height: 3;
   color: white;
 }
 
@@ -291,7 +283,6 @@ footer hr {
   .btn a {
     display: none;
   }
-
 }
 
 @media (max-width: 767.98px) {
@@ -340,6 +331,5 @@ footer hr {
     color: white;
     font-size: 29px;
     padding-bottom: 10px;
-}
-
+  }
 }
