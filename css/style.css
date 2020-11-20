@@ -23,6 +23,9 @@ a {
 img {
   max-width: 100%;
 }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 /* HEADER STARTS */
 .navbar-brand img {
@@ -38,7 +41,7 @@ img {
 .nav-item a {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   color: black;
 }
 nav {
@@ -57,12 +60,6 @@ nav {
   padding: 5px 10px;
   color: #5f67ff;
   font-size: 18px;
-}
-.sep_anchor :hover {
-  background-color: #5f67ff;
-  color: white;
-  border-radius: 50%;
-  border: none;
 }
 .btn a {
   text-transform: uppercase;
@@ -89,9 +86,19 @@ header hr {
   padding: 0.8px;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  z-index: 9;
+  background-color: aliceblue;
+  box-shadow: 7px 0px 5px 3px #506fcc2f;
+}
+
 /* PARTNERS STARTS */
 .partners {
-  padding: 90px 0px 20px;
+  padding: 120px 0px 20px;
 }
 
 .partners h1 {
@@ -122,7 +129,7 @@ header hr {
 /* CONTENT 1 STARTS */
 .box {
   padding: 60px 50px 30px;
-  box-shadow: 0px 19px 17px 4px rgba(97, 94, 94, 0.178);
+  box-shadow: 0px 12px 17px 4px rgba(97, 94, 94, 0.178);
   border-radius: 10px;
 }
 
@@ -147,7 +154,7 @@ header hr {
 .box2 {
   text-align: center;
   padding: 30px;
-  box-shadow: 0px 19px 17px 4px rgba(97, 94, 94, 0.178);
+  box-shadow: 0px 12px 17px 4px rgba(97, 94, 94, 0.178);
   border-radius: 10px;
 }
 
@@ -157,7 +164,7 @@ header hr {
 
 .box3 {
   padding: 40px;
-  box-shadow: 0px 19px 17px 4px rgba(97, 94, 94, 0.178);
+  box-shadow: 0px 12px 17px 4px rgba(97, 94, 94, 0.178);
   border-radius: 10px;
 }
 
@@ -313,9 +320,6 @@ footer hr {
 }
 
 @media (max-width: 767.98px) {
-  .sep_anchor a {
-    display: none;
-  }
   .about h1 {
     color: #5f67ff;
     font-size: 60px;
@@ -324,12 +328,29 @@ footer hr {
   .steps_content {
     text-align: center;
   }
+  .partners h1 {
+    font-size: 30px;
+    background-color: #5f67ff;
+    display: inline-block;
+    padding: 20px 100px 20px 100px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }
 
 @media (max-width: 575.98px) {
-  .sep_anchor a {
-    display: none;
+  .partners h1 {
+    font-size: 45px;
+    background-color: #5f67ff;
+    display: inline-block;
+    padding: 20px 100px 20px 100px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 90px;
   }
+
   .about h1 {
     color: #5f67ff;
     font-size: 44px;
