@@ -115,7 +115,8 @@ header hr {
 .about {
   padding: 20px 0px;
 }
-.about h1 {
+.about h1,
+span {
   color: #5f67ff;
   font-size: 70px;
   font-weight: 700;
